@@ -17,7 +17,7 @@ This repository contains my solutions and notes for the exercises in [Eloquent J
 | 8           | Bugs and Errors                     | ✅     | 2/2                 | [chapter-8](./chapter-8)   |
 | 9           | Regular Expressions                 | ✅     | 3/3                 | [chapter-9](./chapter-9)   |
 | 10          | Modules                             | ✅     | 1/1                 | [chapter-10](./chapter-10) |
-| 11          | Asynchronous Programming            | 🔲     | 3/3                 | [chapter-11](./chapter-11) |
+| 11          | Asynchronous Programming            | ✅     | 2/2                 | [chapter-11](./chapter-11) |
 | 12          | Project: A Programming Language     | 🔲     | 3/3                 | [chapter-12](./chapter-12) |
 | 13          | JavaScript and the Browser          | 🔲     | N/A                 | [chapter-13](./chapter-13) |
 | 14          | The Document Object Model           | 🔲     | 3/3                 | [chapter-14](./chapter-14) |
