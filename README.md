@@ -14,7 +14,7 @@ This repository contains my solutions and notes for the exercises in [Eloquent J
 | 5           | Higher-Order Functions              | ✅     | 4/4                 | [chapter-5](./chapter-5)   |
 | 6           | The Secret Life of Objects          | ✅     | 4/4                 | [chapter-6](./chapter-6)   |
 | 7           | Project: A Robot                    | ✅     | 3/3                 | [chapter-7](./chapter-7)   |
-| 8           | Bugs and Errors                     | 🔲     | 2/2                 | [chapter-8](./chapter-8)   |
+| 8           | Bugs and Errors                     | ✅     | 2/2                 | [chapter-8](./chapter-8)   |
 | 9           | Regular Expressions                 | 🔲     | 3/3                 | [chapter-9](./chapter-9)   |
 | 10          | Modules                             | 🔲     | 1/1                 | [chapter-10](./chapter-10) |
 | 11          | Asynchronous Programming            | 🔲     | 3/3                 | [chapter-11](./chapter-11) |
