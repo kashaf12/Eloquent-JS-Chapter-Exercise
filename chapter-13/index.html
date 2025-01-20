@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountains</title>
+</head>
+
+<body>
+    <h1>Mountains</h1>
+    <div id="mountains"></div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Height</th>
+                <th>Place</th>
+            </tr>
+        </thead>
+        <tbody id="mountains-table-body">
+           
+        </tbody>
+    </table>
+
+    <script>
+        const MOUNTAINS = [
+            { name: "Kilimanjaro", height: 5895, place: "Tanzania" },
+            { name: "Everest", height: 8848, place: "Nepal" },
+            { name: "Mount Fuji", height: 3776, place: "Japan" },
+            { name: "Vaalserberg", height: 323, place: "Netherlands" },
+            { name: "Denali", height: 6168, place: "United States" },
+            { name: "Popocatepetl", height: 5465, place: "Mexico" },
+            { name: "Mont Blanc", height: 4808, place: "Italy/France" }
+        ];
+
+        // Target the tbody of the table
+        const tableBody = document.getElementById("mountains-table-body");
+
+        // Generate rows for each mountain
+        MOUNTAINS.forEach(mountain => {
+            const row = document.createElement("tr");
+
+            const nameCell = document.createElement("td");
+            nameCell.textContent = mountain.name;
+
+            const heightCell = document.createElement("td");
+            heightCell.textContent = mountain.height;
+
+            const placeCell = document.createElement("td");
+            placeCell.textContent = mountain.place;
+
+            row.appendChild(nameCell);
+            row.appendChild(heightCell);
+            row.appendChild(placeCell);
+
+            tableBody.appendChild(row);
+        });
+    </script>
+</body>
+
+</html>
